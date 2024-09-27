@@ -1,0 +1,20 @@
+{
+    "name": "text-editor-pwa",
+    "version": "1.0.0",
+    "description": "A Progressive Web Application text editor",
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "build": "webpack"
+    },
+    "dependencies": {
+      "express": "^4.17.1",
+      "idb": "^7.0.1"
+    },
+    "devDependencies": {
+      "webpack": "^5.0.0",
+      "webpack-cli": "^4.0.0",
+      "webpack-dev-server": "^3.11.0"
+    }
+  }
+  
